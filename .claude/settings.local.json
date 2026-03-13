@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(cd C:/Users/tianj/uigen && npx vitest run src/lib/__tests__/auth.test.ts 2>&1)",
+      "Bash(cd C:/Users/tianj/uigen && npm run test -- --run src/lib/__tests__/auth.test.ts 2>&1)",
+      "Bash(cd C:/Users/tianj/uigen && ./node_modules/.bin/vitest run src/lib/__tests__/auth.test.ts 2>&1)",
+      "Bash(cd C:/Users/tianj/uigen && node node_modules/vitest/vitest.mjs run src/lib/__tests__/auth.test.ts 2>&1)",
+      "Bash(cd C:/Users/tianj/uigen && node node_modules/vitest/vitest.mjs run src/hooks/__tests__/use-auth.test.ts --reporter=verbose 2>&1)"
+    ]
+  }
+}
